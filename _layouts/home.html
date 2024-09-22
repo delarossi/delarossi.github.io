@@ -13,19 +13,28 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Get Started</a></li>
-                </ul>
+    <section id="blackforest" class="major">
+        <div class="inner" style="display: flex; justify-content: space-between; align-items: center;">
+            <!-- Linke Seite: Text -->
+            <div class="text-content" style="flex: 1;">
+                <header class="major">
+                    <h1>{{ page.landing-title }}</h1>
+                </header>
+                <div class="content">
+                    <p style="text-transform: uppercase;">{{ site.description }}</p>
+                    <ul class="actions">
+                        <li><a href="#one" class="button next scrolly">Watch my Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Rechte Seite: Bild -->
+            <div class="image-content" style="flex: 1; text-align: right;">
+                <img src="/assets/images/sascha.png" alt="Your Name" style="max-width: 80%; height: auto; border-radius: 50%;">
             </div>
         </div>
     </section>
+    
 
     <!-- Main -->
     <div id="main">
@@ -34,17 +43,7 @@
         {% include tiles.html %}
 
         <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
+        
 
     </div>
 

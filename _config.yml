@@ -1,15 +1,13 @@
 # site settings
-title: Sascha Rossi Portfolio
-subtitle: Sascha Rossi
+title: Sascha Rossi
+subtitle: Portfolio
 email: rossisascha@gmail.com
-description: Web Developer Portfolio Sascha Rossi
-baseurl: ""
-url: ""
-author: Sascha Rossi
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
 street_address: Von-Hiddessen-Str. 7
 city: 79848 Bonndorf
-state: Baden-Württemberg
-
 country: Germany
 phone: +49 (0)173 260 44 79
 
@@ -22,12 +20,9 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  - name: GitHub
-    url: https://github.com/delarossi
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/sascha-rossi-4325a893
-  - name: Xing
-    url: https://www.xing.com/profile/Sascha_Rossi
+  GitHub: https://github.com/delarossi
+  LinkedIn: https://www.linkedin.com/in/sascha-rossi-4325a893
+  Xing: https://www.xing.com/profile/Sascha_Rossi
 
 # build settings
 markdown: kramdown
@@ -36,7 +31,7 @@ sass:
   style: compressed
 
 exclude:
-  - "*.gemspec"
-  - LICENSE.md
-  - CONTRIBUTING.md
-  - README.md 
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 

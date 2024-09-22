@@ -21,55 +21,72 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/website2.png %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Orci maecenas</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Rhoncus magna</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Sed nunc ligula</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
+    <section>
+        <a href="https://chaingateway.io" target="_blank" class="image">
+            <img src="{% link assets/images/chaingateway.png %}" alt="" data-position="center center" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Orci maecenas</h3>
+                </header>
+                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                <ul class="actions">
+                    <li><a href="https://chaingateway.io" target="_blank" class="button">Watch Website</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a href="https://party-agenten.de" class="image">
+            <img src="{% link assets/images/party-agenten.png %}" alt="" data-position="top center" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Rhoncus magna</h3>
+                </header>
+                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                <ul class="actions">
+                    <li><a href="https://party-agenten.de" class="button">Watch Website</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a href="https://bitblade.de" target="_blank" class="image">
+            <img src="{% link assets/images/bitblade.png %}" alt="" data-position="center center" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Orci maecenas</h3>
+                </header>
+                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                <ul class="actions">
+                    <li><a href="https://bitblade.de" target="_blank" class="button">Watch Website</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a href="https://totalrugged.com" class="image">
+            <img src="{% link assets/images/totalrugged.png %}" alt="" data-position="top center" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Rhoncus magna</h3>
+                </header>
+                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                <ul class="actions">
+                    <li><a href="https://totalrugged.com" class="button">Watch Website</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </section>
+
 
 <!-- Three -->
 <section id="three">
@@ -83,5 +100,20 @@ nav-menu: true
 		</ul>
 	</div>
 </section>
+<style>
+section.spotlights .image img {
+    width: 100%;              /* Breite des Containers anpassen */
+    height: 100%;             /* Höhe des Containers ausfüllen */
+    object-fit: contain;      /* Bild so skalieren, dass es komplett sichtbar ist */
+    object-position: center;  /* Bild in der Mitte des Containers positionieren */
+}
+
+@media (max-width: 768px) {
+    section.spotlights {
+        height: 300px;         /* Höhe auf 300px bei kleineren Bildschirmen */
+    }
+}
+</style>
+
 
 </div>

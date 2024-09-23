@@ -49,6 +49,57 @@
 			}
 		}
 	}
+	#blackforest .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #blackforest .text-content {
+        flex: 1;
+    }
+
+    #blackforest .image-content {
+        flex: 1;
+        text-align: right; /* Bild rechts ausrichten */
+    }
+
+    #blackforest .image-content img {
+        max-width: 80%;
+        height: auto;
+        border-radius: 50%;
+        display: block; /* Bild als Blockelement */
+        margin: 0 auto; /* Zentrieren */
+    }
+
+    #blackforest .actions {
+        margin-top: 40px; /* Abstand zum Bild */
+        text-align: left; /* Button links ausrichten im Desktop-Layout */
+        margin-left: 0; /* Weiter nach links */
+    }
+
+    /* Für mobile Geräte mit max. 768px Bildschirmbreite */
+    @media (max-width: 768px) {
+        #blackforest .inner {
+            flex-direction: column; /* Stellt sicher, dass der Text über dem Bild angezeigt wird */
+            text-align: center;
+        }
+
+        #blackforest .image-content {
+            margin-top: 20px; /* Bild nach unten verschieben */
+        }
+
+        #blackforest .actions {
+            display: flex;
+            justify-content: center; /* Zentriert die Aktionen im mobilen Layout */
+            width: 100%; /* Sicherstellen, dass der Container die volle Breite hat */
+        }
+
+        #blackforest .image-content img {
+            max-width: 60%; /* Bildgröße anpassen */
+        }
+    }
+	
 
 // Base.
 

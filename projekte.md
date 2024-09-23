@@ -39,7 +39,7 @@ nav-menu: true
         </div>
     </section>
     <section style="align-items: center; justify-content: center;">
-    <a href="https://party-agenten.de" class="image">
+    <a href="https://party-agenten.de" target="_blank" class="image">
         <img src="{% link assets/images/party-agenten.png %}" alt="" data-position="top center" />
     </a>
     <div class="content">
@@ -50,7 +50,7 @@ nav-menu: true
             <p>One Page Webdesign für eine DJ Agentur mit Integration von Videos, Audio Records und Contact Form.<br>
 				Frameworks und Technologien: WordPress, Brizzy, HTML</p>
             <ul class="actions">
-                <li><a href="https://party-agenten.de" class="button">Website anschauen</a></li>
+                <li><a href="https://party-agenten.de" target="_blank" class="button">Website anschauen</a></li>
             </ul>
         </div>
     </div>
@@ -73,7 +73,7 @@ nav-menu: true
         </div>
     </section>
     <section style="align-items: center; justify-content: center;">
-        <a href="https://totalrugged.com" class="image">
+        <a href="https://totalrugged.com" target="_blank" class="image">
             <img src="{% link assets/images/totalrugged.png %}" alt="" data-position="top center" />
         </a>
         <div class="content">
@@ -84,7 +84,7 @@ nav-menu: true
                 <p>Web- und Mediendesign sowie technische Umsetzung für ein Unternehmen, welches Industrie Notebooks vertreibt.
 				Frameworks und Technologien: HTML, Tailwind CSS, Mautic, Jekyll, Adobe Illustrator, Final Cut</p>
                 <ul class="actions">
-                    <li><a href="https://bitblade.de" target="_blank" class="button">Website anschauen</a></li>
+                    <li><a href="https://totalrugged.com" target="_blank" class="button">Website anschauen</a></li>
                 </ul>
             </div>
         </div>

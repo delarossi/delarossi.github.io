@@ -89,6 +89,23 @@ nav-menu: true
             </div>
         </div>
     </section>
+    <section style="align-items: center; justify-content: center;">
+        <a href="https://chaingateway.io" target="_blank" class="image">
+            <img src="{% link assets/images/blockchaindb.png %}" alt="" data-position="center center"/>
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>BlockchainDB</h3>
+                </header>
+                <p>Ein Blockchain Explorer für Kryptowährungen mit Echtzeitdatenübertragung<br>
+				Frameworks und Technologien: HTML, Tailwind CSS, Laravel Herd, Alpine.js,  Laravel Reverb, Laravel Pulse, Livewire</p>
+                <ul class="actions">
+                    <li><a href="#" target="_blank" class="button">Website coming soon</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </section>
 
 </div>

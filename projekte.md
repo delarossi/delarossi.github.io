@@ -81,7 +81,7 @@ nav-menu: true
                 <header class="major">
                     <h3>Totalrugged.com</h3>
                 </header>
-                <p>Web- und Mediendesign sowie technische Umsetzung für ein Unternehmen, welches Industrie Notebooks vertreibt.
+                <p>Web- und Mediendesign sowie technische Umsetzung für ein Unternehmen, welches Industrie Notebooks vertreibt.<br>
 				Frameworks und Technologien: HTML, Tailwind CSS, Mautic, Jekyll, Adobe Illustrator, Final Cut</p>
                 <ul class="actions">
                     <li><a href="https://totalrugged.com" target="_blank" class="button">Website anschauen</a></li>
@@ -98,10 +98,10 @@ nav-menu: true
                 <header class="major">
                     <h3>BlockchainDB</h3>
                 </header>
-                <p>Ein Blockchain Explorer für Kryptowährungen mit Echtzeitdatenübertragung<br>
+                <p>Ein Blockchain Explorer für Kryptowährungen mit Echtzeitdatenübertragung.<br>
 				Frameworks und Technologien: HTML, Tailwind CSS, Laravel Herd, Alpine.js,  Laravel Reverb, Laravel Pulse, Livewire</p>
                 <ul class="actions">
-                    <li><a href="#" target="_blank" class="button">Website coming soon</a></li>
+                    <li><a href="#" target="_blank" class="button">Website is coming soon</a></li>
                 </ul>
             </div>
         </div>

@@ -1,14 +1,14 @@
 # site settings
 title: Sascha Rossi
 subtitle: Portfolio
-email: rossisascha@gmail.com
+email: delarossi.kontakt@gmail.com
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: Von-Hiddessen-Str. 7
 city: 79848 Bonndorf
-phone: +49 (0)173 260 44 79
+phone: +49 (0)151 29 06 82 85
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
